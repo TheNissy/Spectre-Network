@@ -1,0 +1,29 @@
+{
+  "replay_window_seconds": 120,
+  "rate_limit_per_minute": 60,
+  "app_keys": [
+    {
+      "app_key_id": "poker-app-key",
+      "wallet_address": "4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "spend_limit_per_tx": 2000000000000,
+      "daily_limit": 10000000000000,
+      "total_allocation": 20000000000000,
+      "spent_today": 0,
+      "spent_total": 0,
+      "allowed_destinations": [
+        "4yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+      ],
+      "blocked_destinations": [],
+      "revoked": false
+    }
+  ],
+  "sessions": [
+    {
+      "session_token": "session-token-1",
+      "app_key_id": "poker-app-key",
+      "session_secret": "replace-with-session-secret",
+      "expires_at_unix": 1893456000,
+      "revoked": false
+    }
+  ]
+}
